@@ -13,7 +13,7 @@ const router = createBrowserRouter([
 function App() {
   return (
     <Provider store={store}>
-      <main class="max-w-screen-xl mx-auto px-4 py-20">
+      <main className="max-w-screen-xl px-4 py-20 mx-auto">
         <RouterProvider router={router} />
       </main>
     </Provider>

@@ -1,4 +1,4 @@
-const { configureStore } = require('@reduxjs/toolkit');
+import { configureStore } from '@reduxjs/toolkit';
 import messageReducer from './slices/messageSlice';
 
 const store = configureStore({

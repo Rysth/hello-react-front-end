@@ -1,11 +1,11 @@
-const { createSlice, createAsyncThunk } = require('@reduxjs/toolkit');
+import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
 // GET message#index
 export const fetchRandomMessage = createAsyncThunk(
   'message/fetchRandomMessage',
   async () => {
     try {
-      const response = await fetch('http://127.0.0.1:4000/api/v1/messages');
+      const response = await fetch('http://localhost:4000/api/v1/messages');
 
       if (!response.ok) {
         throw new Error(
