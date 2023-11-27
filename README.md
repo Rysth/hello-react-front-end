@@ -16,9 +16,11 @@
 
 ## About the Project
 
-- **REACT PROJECT NAME:** ...
+- **React - Hello World - Frontend:** ...
 
 ## Built With
+
+<a href="https://github.com/Rysth/hello-rails-back-end">See the Rails Application</a>
 
 - HTML
 - CSS
@@ -40,8 +42,8 @@
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Rysth/REACT-Template.git
-   cd REACT-Template
+   git clone https://github.com/Rysth/hello-react-front-end.git
+   cd hello-react-front-end
    code .  # To open VS Code Editor
    ```
 
@@ -58,13 +60,13 @@
 - CSS Checker:
 
   ```bash
-  npx stylelint "**/*.{css,scss}"
+  npx stylelint "**/*.{css,scss}" --fix
   ```
 
 - ESLint Checker:
 
   ```bash
-  npx eslint "**/*.{js,jsx}"
+  npx eslint "**/*.{js,jsx}" --fix
   ```
 
 ### Authors
