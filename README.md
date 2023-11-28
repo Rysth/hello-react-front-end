@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="./app/assets/images/banner.png" />
+  <img src="./banner.png" />
   <h3><b>John Palacios</b></h3>
 </div>
 
