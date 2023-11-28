@@ -1,24 +1,29 @@
-# John Palacios - RysthCraft
+<a name="readme-top"></a>
 
 <div align="center">
-  <img src="./banner.png" alt="logo" height="auto" />
+  <img src="./app/assets/images/banner.png" />
+  <h3><b>John Palacios</b></h3>
 </div>
 
-## Table of Contents
+# 📗 Table of Contents
 
-- [About the Project](#about-project)
-- [Built With](#built-with)
-- [Key Features](#key-features)
-- [Live Demo](#live-demo)
-- [Getting Started](#getting-started)
-- [Authors](#authors)
-- [License](#license)
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Linters](#linters)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-## About the Project
+# 📖 **Rails Hello World Frontend** <a name="about-project"></a>
 
-- **React - Hello World - Frontend:** ...
+- **React - Hello World - Frontend:** is a frontend application where you can see random messages fetched from an API built with Ruby on Rails.
 
-## Built With
+## 🛠 Built With <a name="built-with"></a>
 
 <a href="https://github.com/Rysth/hello-rails-back-end">See the Rails Application</a>
 
@@ -27,17 +32,12 @@
 - JavaScript
 - React
 
-## Key Features
+### Key Features <a name="key-features"></a>
 
-- 🚀 Feature 1
-- 🌟 Feature 2
-- 🔍 Feature 3
+- 🚀 See random messages from the API
+- 🌟 Basic UI built with TailwindCSS
 
-### Live Demo
-
-[Live Demo](https://react-bookstore-2060.onrender.com/)
-
-## Getting Started
+## 💻 Getting Started <a name="getting-started"></a>
 
 1. Clone the repository:
 
@@ -55,7 +55,7 @@
 - **npm test:** Launch the test runner.
 - **npm run build:** Build the app for production.
 
-### Linters
+### Linters <a name="linters"></a>
 
 - CSS Checker:
 
@@ -69,13 +69,45 @@
   npx eslint "**/*.{js,jsx}" --fix
   ```
 
-### Authors
+<!-- AUTHORS -->
 
-- John Palacios
+## 👥 Authors <a name="authors"></a>
 
-  - [LinkedIn](https://www.linkedin.com/in/john-rysthcraft/)
-  - [GitHub](https://github.com/Rysth)
+👤 **John Palacios**
 
-### License
+- GitHub: [@rysthcraft](https://github.com/Rysth)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/john-palacios-rysthcraft)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Implement CRUD functionality for Messages**: Develop a comprehensive CRUD (Create, Read, Update, Delete) application, enabling efficient management and manipulation of message data within the system.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thanks to my family members for supporting me during Microverse, and their team.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
