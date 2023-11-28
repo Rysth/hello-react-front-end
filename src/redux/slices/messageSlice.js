@@ -5,7 +5,10 @@ export const fetchRandomMessage = createAsyncThunk(
   'message/fetchRandomMessage',
   async () => {
     try {
-      const response = await fetch('http://localhost:4000/api/v1/messages');
+      const response = await fetch('http://localhost:4000/api/v1/messages', {
+        method: 'GET',
+        mode: 'no-cors',
+      });
 
       if (!response.ok) {
         throw new Error(
